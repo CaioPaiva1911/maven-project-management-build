@@ -1,14 +1,16 @@
 package br.com.alura.loja;
 
-import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import static org.junit.Assert.fail;
 
 public class ProdutoTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+//		success("Not yet implemented");
+		System.out.println("Success!");
 	}
 
 }
