@@ -3,14 +3,17 @@ package br.com.alura.loja;
 
 import org.junit.Test;
 
-import static org.junit.Assert.fail;
+import java.math.BigDecimal;
+
+import static org.junit.Assert.assertEquals;
 
 public class ProdutoTest {
 
 	@Test
 	public void test() {
-//		success("Not yet implemented");
-		System.out.println("Success!");
+		Produto p = new Produto("teste", BigDecimal.TEN);
+		assertEquals("teste", p.getNome());
+		assertEquals(BigDecimal.TEN, p.getPreco());
 	}
 
 }
